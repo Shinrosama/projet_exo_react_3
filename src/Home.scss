@@ -1,6 +1,8 @@
-.maincontainer{
-    background-color: aqua;
+$bgcolor : green;
 
+.maincontainer{
+    
+    background-color: $bgcolor;
     text-align: center;
 
     height: 50vh;
