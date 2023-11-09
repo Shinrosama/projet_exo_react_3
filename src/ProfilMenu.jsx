@@ -1,3 +1,5 @@
+import './ProfilMenu.css'
+
 function ProfilMenu (){
 
     const isuserloged = true;

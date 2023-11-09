@@ -1,4 +1,4 @@
-
+import './Home.css'
 
 
 function Home(){
@@ -79,10 +79,10 @@ function Home(){
   
         
       return(
-          <main>
+          <main className='maincontainer'>
                 {lastPublishedArticles.map((article) =>{
                   return(
-                    <article>
+                    <article className='articletext'>
                       <h2>{article.title}</h2>
                       <p>{article.price}</p>
                     </article>

@@ -1,0 +1,20 @@
+.maincontainer{
+    background-color: aqua;
+
+    text-align: center;
+
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 10%;
+    
+}
+
+.articletext{
+
+    display: flex;
+    flex-direction: column;
+
+}
