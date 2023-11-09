@@ -1,3 +1,5 @@
+import Footer from './Footer';
+import Header from './Header';
 import './Home.scss'
 
 
@@ -79,6 +81,8 @@ function Home(){
   
         
       return(
+        <>
+          <Header/>
           <main className='maincontainer'>
                 {lastPublishedArticles.map((article) =>{
                   return(
@@ -89,6 +93,8 @@ function Home(){
                   )
                 })}
           </main>
+          <Footer/>
+          </>
       );
 }
 export default Home;

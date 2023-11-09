@@ -11,7 +11,7 @@ function Header (){
 
             <ul className="navbar">
                 <li>Acueil</li>
-                <li>Articles</li>
+                <li>contact</li>
                 <ProfilMenu/>
             </ul>
 
